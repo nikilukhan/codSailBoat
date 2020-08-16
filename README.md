@@ -1,4 +1,4 @@
-# Inverse Kinematics
+# College of Dupage Sail Boat Competition
 This repo contains the code for both ESP8266 and ESP32 microcontrollers to be used as both computers and recievers for the cardboard boat competition at College of dupage. This code is made to work with the blynk app through a personal hotspot or Wifi of ones choosing. Extendability was kept in mind for the code so that participants can edit it to accomodate their boat.
 
 ## Hardware and Software Used
