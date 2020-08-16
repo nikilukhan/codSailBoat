@@ -30,12 +30,19 @@ This repo contains the code for both ESP8266 and ESP32 microcontrollers to be us
 
 7. Go to Tools -> Board: -> Boards Manager. Search `esp32` or `esp8266`(Based on your board) and click on install repeatedly until the error message stops appearing and the Package is downloaded.
 
-#### Setup
-8. Go to Tools -> Board: and scroll on the list until you find and select the apropriate board.
+#### Code Setup
+8. In the Blynk app, make a new device by naming it, selecting the corresponding board, and choosing the connection type to be wifi.
 
-9. Go to Tools -> Port and select the port that shows up when you plug the arduino into the computer.
+9. Copy the `auth token` and paste it in replacing the `customAuthenticator`.
 
-10. You can press the right-facing arrow at the top left and upload it to your board.
+10. Replace the `ssid` with the exact name of your mobile hotspot and change the `password` to your mobile hotspot password.
+
+#### IDE Setup
+11. Go to Tools -> Board: and scroll on the list until you find and select the apropriate board.
+
+12. Go to Tools -> Port and select the port that shows up when you plug the arduino into the computer.
+
+13. You can press the right-facing arrow at the top left and upload it to your board.
 
 ## Authors
 Nikita Lukhanin - [nikilukhan](https://github.com/nikilukhan)
