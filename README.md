@@ -30,19 +30,26 @@ This repo contains the code for both ESP8266 and ESP32 microcontrollers to be us
 
 7. Go to Tools -> Board: -> Boards Manager. Search `esp32` or `esp8266`(Based on your board) and click on install repeatedly until the error message stops appearing and the Package is downloaded.
 
+#### App Setup
+8. In the Blynk app, make a new device by clicking on the nut icon in the top right and clicking on the devices tab. Add a new device, name it, select the corresponding board (nodeMCU), and choose the connection type to be wifi.
+
+9. Go back to the main screen with dots everywhere and swipe left. Under the controllers menu select joystick and place it in the middle of the screen. Name it servo control and select its target to be the board you just made.
+
+10. Under the first box(0), select virtual --> V1, make its range 0 to 180. Select auto return and rotate on tilt to be on and make sure split it selected.
+
+11. When the board is connected to your hotspot you can go back to this app and press the play button on the top right to start the controls.
+
 #### Code Setup
-8. In the Blynk app, make a new device by naming it, selecting the corresponding board, and choosing the connection type to be wifi.
+12. Copy the `auth token` and paste it in replacing the `customAuthenticator`.
 
-9. Copy the `auth token` and paste it in replacing the `customAuthenticator`.
-
-10. Replace the `ssid` with the exact name of your mobile hotspot and change the `password` to your mobile hotspot password.
+13. Replace the `ssid` with the exact name of your mobile hotspot and change the `password` to your mobile hotspot password.
 
 #### IDE Setup
-11. Go to Tools -> Board: and scroll on the list until you find and select the apropriate board.
+14. Go to Tools -> Board: and scroll on the list until you find and select the apropriate board.
 
-12. Go to Tools -> Port and select the port that shows up when you plug the arduino into the computer.
+15. Go to Tools -> Port and select the port that shows up when you plug the arduino into the computer.
 
-13. You can press the right-facing arrow at the top left and upload it to your board.
+16. You can press the right-facing arrow at the top left and upload it to your board.
 
 ## Authors
 Nikita Lukhanin - [nikilukhan](https://github.com/nikilukhan)
