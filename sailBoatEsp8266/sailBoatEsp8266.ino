@@ -15,7 +15,7 @@ void setup()
   Serial.begin(9600);
   Blynk.begin(auth, ssid, pass);
 
-  servo.attach(5);
+  servo.attach(15); //nodeMCU port D8
 }
 
 void loop()
