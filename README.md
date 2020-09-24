@@ -45,7 +45,7 @@ This repo contains the code for both ESP8266 and ESP32 microcontrollers to be us
 13. Replace the `ssid` with the exact name of your mobile hotspot and change the `password` to your mobile hotspot password.
 
 #### IDE Setup
-14. Go to Tools -> Board: and scroll on the list until you find and select the apropriate board.
+14. Go to Tools -> Board: and scroll on the list until you find and select the apropriate board `NodeMCU 1.0 (ESP-12E Module)`.
 
 15. Go to Tools -> Port and select the port that shows up when you plug the arduino into the computer.
 
